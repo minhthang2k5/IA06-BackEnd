@@ -1,0 +1,42 @@
+{
+  "name": "user-registration-api",
+  "version": "1.0.0",
+  "description": "NestJS API for user registration",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "nest build",
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch",
+    "lint": "eslint --ext .ts src",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/config": "^3.1.1",
+    "@nestjs/core": "^10.3.0",
+    "@nestjs/mongoose": "^10.0.4",
+    "@nestjs/platform-express": "^10.3.0",
+    "bcryptjs": "^2.4.3",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "mongoose": "^7.7.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.3.2",
+    "@nestjs/schematics": "^10.0.3",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.10",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "prettier": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.3.3"
+  }
+}
